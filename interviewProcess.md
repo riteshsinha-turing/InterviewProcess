@@ -107,46 +107,33 @@ Round **1** differs by candidate type (external: AI-enabled coding; internal: co
 
 ### Round 1 — AI-Enabled Coding & Problem Solving *(External only)*
 
-#### Objective
-
-* Evaluate how the candidate solves problems **with AI tools** — problem decomposition, engineering judgment, and ownership of the final solution — not rote DSA recall under a no-AI constraint.
-
-#### Format
-
-* **AI-allowed live coding round** — tell candidates explicitly that **AI tools are allowed** (e.g. Cursor, Copilot, ChatGPT, Claude).
-* Candidate **shares screen** for the full session so the interviewer can observe tooling, prompts, and edits.
-* Interviewer provides one coding problem (see Problem Bank Guidance); candidate may use any allowed AI assistant.
-
-#### Duration
-
-* **60 minutes total** — 10 minutes introductions and candidate questions; 50 minutes for the interview.
-
-#### Recommended Format / Tooling
-
-* Video call with **screen share** (candidate’s IDE + AI tool visible).
-* HackerRank / CoderPad optional for running code; primary evaluation is live workflow, not platform autograding.
-
-#### What to Evaluate (Score 1–4 Each)
-
-* **Break down the problem** — clarifies requirements, edge cases, and approach before leaning on AI.
-* **Prompt the tool** — specific, iterative prompts; uses AI for the right subtasks (not blind paste).
-* **Validate the output** — reads generated code, runs tests, sanity-checks logic and complexity.
-* **Catch bugs** — finds and fixes AI mistakes, hallucinations, and missed edge cases.
-* **Explain tradeoffs** — time/space, design choices, and when *not* to use AI-generated shortcuts.
-* **Modify generated code** — refactors, renames, simplifies, and makes the solution their own.
-
-#### Level Calibration
-
-* **Junior:** One medium problem; clear breakdown and validation; arrives at a correct solution with guidance on prompting quality acceptable.
-* **Senior:** Medium with extension; strong prompting and bug-catching; discusses tradeoffs; production-minded structure and tests.
-* **Staff:** Harder problem or meaningful extension; drives the AI workflow intentionally; refactors generated code; deep tradeoff discussion.
-
-#### Problem Bank Guidance
-
-* **Junior:** One medium problem (LC-style acceptable).
-* **Senior:** One medium with extension, or one hard with pragmatic scope.
-* **Staff:** One hard or medium with a substantial extension (e.g. scale, failure modes, API shape).
-* Problems should be solvable with AI assistance but **require human verification** — avoid pure recall trivia.
+* **Overview**
+  * Evaluate how the candidate solves problems **with AI tools** — not rote DSA recall under a no-AI constraint.
+  * Assess problem decomposition, engineering judgment, and ownership of the final solution.
+  * Replaces traditional live coding for external candidates; primary signal for coding and AI collaboration.
+* **Format**
+  * **Duration:** 60 minutes total — 10 minutes introductions and candidate questions; 50 minutes for the interview.
+  * **AI-allowed:** Tell candidates explicitly that AI tools are allowed (e.g. Cursor, Copilot, ChatGPT, Claude).
+  * **Screen share:** Candidate shares screen for the full session; interviewer observes tooling, prompts, and edits.
+  * **Problem:** Interviewer provides one level-appropriate coding problem; candidate may use any allowed AI assistant.
+  * **Tooling:** Video call with screen share; HackerRank / CoderPad optional for running code — evaluate workflow, not autograding alone.
+  * **Problem bank:**
+    * Junior — one medium problem (LC-style acceptable).
+    * Senior — one medium with extension, or one hard with pragmatic scope.
+    * Staff — one hard or medium with substantial extension (scale, failure modes, API shape).
+    * Problems must require human verification; avoid pure recall trivia.
+* **Evaluation Criteria**
+  * Score all six standard dimensions (see §3); emphasize **code quality**, **testing strategy**, **AI knowledge**, **communication**.
+  * **Code quality:** Clean, compilable code; refactors and owns the final solution.
+  * **Testing strategy:** Runs tests, sanity-checks logic, catches edge cases.
+  * **AI knowledge:** Breaks down the problem before prompting; specific iterative prompts; validates output; catches AI bugs and hallucinations; explains when not to use AI shortcuts.
+  * **Design and architecture:** Discusses time/space and structural tradeoffs where relevant.
+  * **Cloud knowledge:** N/A unless problem touches infra — mark N/A if not probed.
+  * **Communication:** Thinks aloud, responds to hints, explains decisions clearly.
+* **Level Calibration**
+  * **Junior:** One medium problem; clear breakdown and validation; correct solution; acceptable prompting with light guidance.
+  * **Senior:** Medium with extension; strong prompting and bug-catching; production-minded structure and tests; discusses tradeoffs.
+  * **Staff:** Harder problem or meaningful extension; drives AI workflow intentionally; deep tradeoff discussion; refactors generated code to production quality.
 
 ---
 
@@ -154,44 +141,31 @@ Round **1** differs by candidate type (external: AI-enabled coding; internal: co
 
 ### Round 1 — Code Walkthrough *(Internal only)*
 
-#### Objective
-
-* Evaluate the candidate’s real engineering work through a guided walkthrough of **two internal projects** — problem understanding, implementation choices, and code quality.
-
-#### Preparation
-
-* Candidate (or HM) selects **2 internal projects** — PRs, code areas, or merged work they owned — and shares links/materials **at least 24 hours before** the session.
-* Interviewer reviews artifacts ahead of time. HM confirms permission to discuss work product with the panel.
-
-#### Format
-
-* **Code walkthrough** — candidate presents each project; interviewer asks follow-ups.
-* Candidate explains for each project:
-  * **Problem** — what was being solved.
-  * **Context** — team, constraints, timeline, dependencies.
-  * **Implementation strategy** — approach, alternatives considered, key decisions.
-* **~25 minutes per project** during the 50-minute interview block (two projects).
-
-#### Duration
-
-* **60 minutes total** — 10 minutes introductions and candidate questions; 50 minutes for the interview.
-
-#### Recommended Format / Tooling
-
-* Video call with **screen share** of internal Git hosting, IDE, or design docs.
-
-#### What to Evaluate (Score 1–4 Each)
-
-* **Code quality** — readability, structure, maintainability.
-* **Design choices** — appropriateness of approach, tradeoffs, coupling.
-* **Testing strategy** — coverage, test types, confidence in changes.
-* **Overall understanding** — depth of ownership; can explain and defend decisions; knows limitations and what they’d do differently.
-
-#### Level Calibration
-
-* **Junior:** Clear explanation of scoped work; reasonable code quality and basic tests.
-* **Senior:** Strong ownership narrative; thoughtful design and testing; production awareness.
-* **Staff:** Cross-team or high-impact work; raises the bar on standards; articulates systemic tradeoffs.
+* **Overview**
+  * Evaluate real engineering work through a guided walkthrough of **two internal projects** (PRs, code, or owned modules).
+  * Assesses problem understanding, implementation choices, and day-to-day engineering quality.
+  * Replaces external Round 1 for internal candidates; not a live coding round.
+* **Format**
+  * **Duration:** 60 minutes total — 10 minutes introductions and candidate questions; 50 minutes for the interview.
+  * **Preparation:** Candidate (or HM) shares 2 projects and links **at least 24 hours before**; interviewer reviews ahead of time; HM confirms permission to discuss work product.
+  * **Walkthrough:** ~25 minutes per project during the 50-minute block; candidate presents, interviewer probes.
+  * **Per project, candidate covers:**
+    * Problem — what was being solved.
+    * Context — team, constraints, timeline, dependencies.
+    * Implementation strategy — approach, alternatives, key decisions.
+  * **Tooling:** Video call with screen share of internal Git hosting, IDE, or design docs.
+* **Evaluation Criteria**
+  * Score all six standard dimensions (see §3); emphasize **code quality**, **testing strategy**, **design and architecture**, **communication**.
+  * **Code quality:** Readability, structure, maintainability in real contributions.
+  * **Testing strategy:** Coverage, test types, confidence in changes.
+  * **Design and architecture:** Appropriateness of approach, tradeoffs, coupling.
+  * **Cloud knowledge:** Infra or deployment choices in their work, if applicable.
+  * **AI knowledge:** Use of AI tools in their workflow, if applicable — otherwise N/A.
+  * **Communication:** Depth of ownership; defends decisions; articulates limitations and what they’d do differently.
+* **Level Calibration**
+  * **Junior:** Clear explanation of scoped work; reasonable code quality and basic tests.
+  * **Senior:** Strong ownership narrative; thoughtful design and testing; production awareness.
+  * **Staff:** Cross-team or high-impact work; raises engineering standards; articulates systemic tradeoffs.
 
 ---
 
@@ -199,131 +173,83 @@ Round **1** differs by candidate type (external: AI-enabled coding; internal: co
 
 ### Round 2 — PR Review & Practical Engineering
 
-#### Objective
-
-* Assess engineering judgment, code review capability, and collaboration signals.
-
-#### Topics
-
-* PR/code review exercise (use level-appropriate canned PRs).
-* Refactoring, API design, testing strategy.
-* Readability, maintainability, reliability/security.
-* Behavioral probes: incident ownership, disagreeing with reviewers, mentoring.
-
-#### Duration
-
-* **60 minutes total** — 10 minutes introductions and candidate questions; 50 minutes for the interview.
-
-#### Recommended Format / Tooling
-
-* GitHub-style PR review; shared IDE or document walkthrough.
-
-#### Evaluation Criteria (Score 1–4 Each)
-
-* Severity ordering (block vs comment).
-* Bug and design flaw detection.
-* Engineering best practices and maintainability.
-* Scalability/security attention.
-* Pragmatic decision making and communication.
-
-#### Level Calibration
-
-* **Junior:** Basic correctness and readability feedback.
-* **Senior:** Architecture-aware review depth.
-* **Staff:** Organizational engineering standards, rollout risk, and cross-team impact.
-
-#### Canned PR Guidance
-
-* Maintain **versioned PR banks** per level (buggy Junior PR, leaky abstraction Senior PR, standards/scale Staff PR).
-* Refresh problem bank quarterly; calibrate interviewers before first use each cycle.
+* **Overview**
+  * Assess engineering judgment, code review capability, and collaboration signals.
+  * Simulates day-to-day PR review — bugs, design, tests, security, and maintainability.
+  * Shared by external and internal candidates (internal Round 2).
+* **Format**
+  * **Duration:** 60 minutes total — 10 minutes introductions and candidate questions; 50 minutes for the interview.
+  * **Exercise:** Level-appropriate canned PR review (GitHub-style or shared IDE / document).
+  * **Discussion topics:** Refactoring, API design, testing strategy, readability, reliability/security.
+  * **Behavioral probes:** Incident ownership, disagreeing with reviewers, mentoring.
+  * **PR bank:** Versioned PRs per level (buggy Junior, leaky abstraction Senior, standards/scale Staff); refresh quarterly; calibrate interviewers before use.
+  * **Internal note:** Prefer **synthetic or anonymized PR** when exercise PRs would bias reviewers who were original authors.
+* **Evaluation Criteria**
+  * Score all six standard dimensions (see §3); emphasize **code quality**, **testing strategy**, **design and architecture**, **communication**.
+  * **Code quality:** Severity ordering (block vs comment); bug and flaw detection; maintainability feedback.
+  * **Testing strategy:** Gaps in tests identified; suggests meaningful test additions.
+  * **Design and architecture:** API shape, coupling, scalability of the change.
+  * **Cloud knowledge:** Infra, config, or deployment concerns in the PR, if present.
+  * **AI knowledge:** N/A unless PR or discussion touches AI — mark N/A if not probed.
+  * **Communication:** Pragmatic decisions; constructive review tone; clear rationale.
+* **Level Calibration**
+  * **Junior:** Basic correctness and readability feedback; catches obvious bugs.
+  * **Senior:** Architecture-aware review depth; security and scale considerations.
+  * **Staff:** Organizational standards, rollout risk, and cross-team impact.
 
 ---
 
 ### Round 3 — Distributed Systems & Engineering Depth
 
-* **Junior:** Round 3 is **not required** — do not schedule. Cover foundational systems topics lightly in Round 4 (HM) if needed.
-* **Senior & Staff:** Required.
-
-#### Objective
-
-* Evaluate how systems **fail, operate, and scale in production** — distinct from Round 4’s “what to build and why.”
-
-#### Topics
-
-* Distributed systems fundamentals, scalability, reliability.
-* Caching, queues, consistency models.
-* Databases, storage tradeoffs, cloud infrastructure.
-* Observability, debugging, production incident handling.
-* Optional AI/LLM infrastructure discussion.
-
-#### Duration
-
-* **60 minutes total** — 10 minutes introductions and candidate questions; 50 minutes for the interview.
-
-#### Recommended Format / Tooling
-
-* Whiteboarding, architecture diagrams, scenario-driven discussion.
-
-#### Evaluation Criteria (Score 1–4 Each)
-
-* Systems thinking and tradeoff analysis.
-* Production and debugging depth.
-* Real-world engineering experience.
-* Ability to simplify complex systems.
-* Communication.
-
-#### Level Calibration
-
-* **Junior:** Foundational understanding with curiosity.
-* **Senior:** Strong operational and system depth.
-* **Staff:** Deep cross-service tradeoffs and operational excellence at scale.
+* **Overview**
+  * Evaluate how systems **fail, operate, and scale in production** — distinct from Round 4’s “what to build and why.”
+  * Scenario-driven depth on distributed systems, cloud, and operational excellence.
+  * **Junior:** Round 3 is **not required** — do not schedule; cover light fundamentals in Round 4 if needed.
+  * **Senior & Staff:** Required.
+* **Format**
+  * **Duration:** 60 minutes total — 10 minutes introductions and candidate questions; 50 minutes for the interview.
+  * **Style:** Whiteboarding, architecture diagrams, scenario-driven discussion.
+  * **Topics:** Distributed systems fundamentals; scalability and reliability; caching, queues, consistency; databases and storage; cloud infrastructure; observability and debugging; production incidents; optional AI/LLM infrastructure.
+  * **Internal note:** May use candidate’s **internal production experience** (incidents, services owned) alongside scenarios.
+* **Evaluation Criteria**
+  * Score all six standard dimensions (see §3); emphasize **cloud knowledge**, **design and architecture**, **communication**.
+  * **Cloud knowledge:** AWS/GCP/Azure concepts; scaling, reliability, observability; production debugging.
+  * **Design and architecture:** Tradeoff analysis; consistency models; system boundaries.
+  * **Code quality:** N/A unless discussing concrete implementation — mark N/A if not probed.
+  * **Testing strategy:** Testing or validation strategies for distributed behavior, if discussed.
+  * **AI knowledge:** Optional LLM/AI infra topics if relevant to role.
+  * **Communication:** Simplifies complex systems; structured reasoning under follow-ups.
+* **Level Calibration**
+  * **Junior:** *(Round not scheduled.)*
+  * **Senior:** Strong operational and system depth; real-world examples.
+  * **Staff:** Deep cross-service tradeoffs; operational excellence at scale.
 
 ---
 
 ### Round 4 — Hiring Manager (System Design & Leadership)
 
-#### Objective
-
-* Assess **what to build, why, and how to own it** — architecture intent, business alignment, leadership, and level fit.
-
-#### Topics
-
-* System design and architecture evolution (12–24 month horizon).
-* Scalability planning and technical decision making.
-* Engineering ownership, stakeholder management, mentoring.
-* Execution under ambiguity; collaboration and influence.
-* Behavioral: conflict with PM/design, being wrong technically, driving consensus.
-
-#### Duration
-
-* **60 minutes total** — 10 minutes introductions and candidate questions; 50 minutes for the interview.
-
-#### Recommended Format / Tooling
-
-* Whiteboarding, architecture diagrams, deep technical discussion.
-
-#### Evaluation Criteria (Score 1–4 Each)
-
-* Architecture quality and decision framework.
-* Leadership maturity and ownership mindset.
-* Business/engineering alignment.
-* Communication and influence.
-* **Level fit** (explicit hire level recommendation).
-
-#### Level Calibration
-
-* **Junior:** Ownership potential and growth mindset.
-* **Senior:** Independent technical leadership on a pod/area.
-* **Staff:** Cross-team technical direction without requiring org-wide executive mandate.
-
----
-
-### Internal Candidate Notes (Rounds 2–4)
-
-* Use the **same scorecards, duration, and level calibration** as the shared round definitions above.
-* **Round 2 (PR):** Prefer a **synthetic or anonymized PR** when exercise PRs would bias reviewers who were original authors.
-* **Round 3 (Systems):** Required for Senior and Staff only. May draw on **internal production experience** (incidents, services owned) in addition to scenario prompts.
-* **Round 4 (HM):** Include promotion scope and level-fit discussion; align with performance history and manager input.
+* **Overview**
+  * Assess **what to build, why, and how to own it** — architecture intent, business alignment, leadership, and level fit.
+  * Hiring manager or senior leader leads; includes explicit **level fit** recommendation.
+  * **Junior:** May include light systems fundamentals (Round 3 skipped).
+  * **Internal note:** Include promotion scope; align with performance history and manager input.
+* **Format**
+  * **Duration:** 60 minutes total — 10 minutes introductions and candidate questions; 50 minutes for the interview.
+  * **Style:** Whiteboarding, architecture diagrams, deep technical and behavioral discussion.
+  * **Topics:** System design and architecture evolution (12–24 months); scalability and technical decisions; ownership, stakeholders, mentoring; execution under ambiguity.
+  * **Behavioral:** Conflict with PM/design; being wrong technically; driving consensus.
+* **Evaluation Criteria**
+  * Score all six standard dimensions (see §3); emphasize **design and architecture**, **cloud knowledge**, **communication**.
+  * **Design and architecture:** Quality of design; decision framework; evolution and ownership.
+  * **Cloud knowledge:** Infra choices, scale path, reliability, and cost tradeoffs in the design.
+  * **Code quality:** Structural and API choices in the design — not line-level coding.
+  * **Testing strategy:** How they would validate and roll out the system.
+  * **AI knowledge:** AI/LLM integration in the design, if relevant to role.
+  * **Communication:** Influence, stakeholder alignment, leadership maturity; clear level-fit signal.
+* **Level Calibration**
+  * **Junior:** Ownership potential and growth mindset; light design scope.
+  * **Senior:** Independent technical leadership on a pod/area.
+  * **Staff:** Cross-team technical direction without org-wide executive mandate.
 
 ---
 
