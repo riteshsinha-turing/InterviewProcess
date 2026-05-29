@@ -7,7 +7,7 @@
 | Candidate type | Round 1 | Round 2 | Round 3 | Round 4 |
 |----------------|---------|---------|---------|---------|
 | **External** | AI-enabled coding & problem solving | PR review & practical engineering | Distributed systems & engineering depth | Hiring manager (system design & leadership) |
-| **Internal** | Code walkthrough (internal projects) | PR review & practical engineering | Distributed systems & engineering depth | Hiring manager (system design & leadership) |
+| **Internal** | Code walkthrough or PR Review (internal projects) & practical engineering | Distributed systems & engineering depth |  Hiring manager (system design & leadership) |NA |
 
 ### Rounds by level
 
