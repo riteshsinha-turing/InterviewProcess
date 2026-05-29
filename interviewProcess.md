@@ -31,28 +31,30 @@
 
 ### Academic Experience (All Levels)
 
-* CS / IT / related engineering degree preferred.
-* Prefer IIT / NIT / IIIT / top-tier institutes **or** demonstrable product impact at scale (tier-2 + strong product companies is a valid path).
+* CS / IT / related engineering degree preferred (No BBA, MBA Or Diploma based Degree. We need full regular academic like **B.Tech / M.Tech**.
+* Prefer **IIT / NIT / IIIT / Govt.Institutions / Top-Tier institutes** OR demonstrable product impact at scale (**Tier-2 + strong product companies is a valid path**).
 * Academics are a **signal**, not a veto — weight work outcomes more heavily for Senior and Staff.
 
 ---
 
-## Junior Engineer (2–4 YOE)
+## Junior Engineer (4+ YOE)
 
 ### Work Experience
 
-* Experience in product engineering organizations preferred.
-* Strong coding fundamentals (DSA, OOP, DBMS, OS, networking basics).
+* Experience in **product engineering** organizations preferred.
+* Strong coding fundamentals (DSA, OOPs, DBMS, OS, networking basics).
 * Exposure to distributed systems, cloud platforms (AWS/GCP/Azure), and backend/API development.
-* Resume signals: impact-oriented projects, ownership beyond assigned tasks.
+* Resume Signals:
+  - Impact-oriented projects.
+  - ownership beyond assigned tasks.
+  - Self-driven mindset.
 
 ### AI Forward
-
-* LLMs, GenAI, AI agents, agentic workflows (bonus).
-
+- LLMs,GenAI
+- AI agents, agentic workflows (bonus).
 ---
 
-## Senior Engineer (6–8 YOE)
+## Senior Engineer (8+ YOE)
 
 ### Work Experience
 
@@ -67,7 +69,7 @@
 
 ---
 
-## Staff Engineer (8–12 YOE)
+## Staff Engineer (10+ YOE)
 
 ### Work Experience
 
@@ -76,10 +78,13 @@
 * Deep distributed systems and cloud-native architecture; strong engineering judgment.
 * Resume signals: multi-team technical direction, migrations/modernization, reliability/performance ownership, mentoring Seniors, standards and design docs that others adopt.
 
-### AI Forward
+### AI Forward 
 
-* AI platform architecture (bonus).
-* Agentic systems / LLM infrastructure (bonus).
+* AI platform architecture.
+* Agentic systems / LLM infrastructure.
+
+---
+>Candidate must not be AI Passanger - This is interview reigour responsibility to ensure they are not passanger (Without AI they must not feel they are handicapped.)
 
 ---
 
@@ -97,7 +102,8 @@
 
 ## Interview Rounds
 
-Round **1** differs by candidate type (external: AI-enabled coding; internal: code walkthrough). Rounds **2, 3, and 4** are **shared** by external and internal candidates. **Juniors skip Round 3**; Senior and Staff complete all four rounds.
+- Round **1** differs by candidate type (external: AI-enabled coding; internal: code walkthrough).
+- Rounds **2, 3, and 4** are **shared** by external and internal candidates. **Juniors skip Round 3**; Senior and Staff complete all four rounds.
 
 **All rounds:** 60 minutes total (10 min introductions and candidate questions · 50 min interview).
 
