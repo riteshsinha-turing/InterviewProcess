@@ -61,11 +61,11 @@
 * Experience in scalable product companies preferred.
 * Proven ownership: end-to-end delivery, production debugging, mentoring juniors.
 * Strong distributed systems and cloud engineering; solid code quality and design practices.
-* Resume signals: scale metrics, architecture participation, reliability improvements, cross-functional collaboration; microservices/platform (bonus).
+* Resume signals: scale metrics, architecture participation, reliability improvements, cross-functional collaboration; microservices/platform.
 
 ### AI Forward
 
-* AI/LLM platform integrations (bonus).
+* AI/LLM platform integrations.
 
 ---
 
