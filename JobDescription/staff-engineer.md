@@ -31,15 +31,6 @@ We're looking for a Staff Engineer to set technical direction across multiple se
 * AI platform architecture experience.
 * Agentic systems / LLM infrastructure experience.
 
-## Our Interview Process
-
-A 4-round process (each round ~60 minutes):
-
-1. **AI-Enabled Coding & Problem Solving** — a challenging live coding problem where AI tools are explicitly allowed; we evaluate how intentionally you drive an AI workflow and refactor generated code to production quality.
-2. **PR Review & Code Comprehension** — review centered on standards, scale, and rollout risk.
-3. **System Design — Distributed Systems** — deep cross-service tradeoffs and operational excellence at scale.
-4. **Hiring Manager — Technical Taste & Fit** — system design, cross-team technical direction, technical taste, and team & culture fit.
-
 ---
 
 *We are an equal-opportunity employer. We evaluate candidates on demonstrated skills and impact and welcome applicants from all backgrounds.*

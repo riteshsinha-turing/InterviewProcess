@@ -30,14 +30,6 @@ We're looking for a Software Engineer to build and own features end-to-end as pa
 
 * Experience with LLMs, GenAI, AI agents, or agentic workflows.
 
-## Our Interview Process
-
-A 3-round process (each round ~60 minutes):
-
-1. **AI-Enabled Coding & Problem Solving** — a live coding problem where AI tools are explicitly allowed; we evaluate how you break down problems and work with AI, not memorized algorithms.
-2. **PR Review & Code Comprehension** — review a realistic pull request for bugs, design, and tests.
-3. **Hiring Manager — Technical Taste & Fit** — design fundamentals, engineering judgment, and team fit.
-
 ---
 
 *We are an equal-opportunity employer. We evaluate candidates on demonstrated skills and impact and welcome applicants from all backgrounds.*

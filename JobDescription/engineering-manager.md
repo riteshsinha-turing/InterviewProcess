@@ -31,15 +31,6 @@ We're hiring an Engineering Manager to lead and grow a team of engineers while s
 * AI platform architecture experience.
 * Agentic systems / LLM infrastructure experience.
 
-## Our Interview Process
-
-A 4-round process (each round ~60 minutes):
-
-1. **PR Review & Code Comprehension** — review a realistic pull request to confirm hands-on engineering judgment.
-2. **System Design — Distributed Systems** — architectural judgment and operational awareness expected of a manager.
-3. **Engineering Leadership** — people management, hiring and team building, delivery and execution, cross-functional partnership, and conflict resolution.
-4. **Hiring Manager — Technical Taste & Fit** — leadership scope, org fit, and technical taste.
-
 ---
 
 *We are an equal-opportunity employer. We evaluate candidates on demonstrated skills and impact and welcome applicants from all backgrounds.*
