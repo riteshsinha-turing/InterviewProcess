@@ -1,6 +1,6 @@
 # Staff Engineer
 
-**Location:** Bangalore, India · **In-office** · Full-time
+**Location:** Bangalore, India · **In-office** · Hybrid
 **Experience:** 8–12 years
 
 ## About the Role

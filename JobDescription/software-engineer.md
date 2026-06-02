@@ -1,6 +1,6 @@
 # Software Engineer
 
-**Location:** Bangalore, India · **In-office** · Full-time
+**Location:** Bangalore, India · **In-office** · Hybrid
 **Experience:** 2–4 years
 
 ## About the Role
