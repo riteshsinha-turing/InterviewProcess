@@ -31,15 +31,6 @@ We're hiring a Senior Software Engineer to own significant pieces of our product
 * Microservices / platform engineering experience.
 * AI/LLM platform integrations.
 
-## Our Interview Process
-
-A 4-round process (each round ~60 minutes):
-
-1. **AI-Enabled Coding & Problem Solving** — a live coding problem where AI tools are explicitly allowed; we evaluate problem decomposition and how you work with AI.
-2. **PR Review & Code Comprehension** — architecture-aware review of a realistic pull request, including security and scale considerations.
-3. **System Design — Distributed Systems** — how systems are designed, fail, operate, and scale in production.
-4. **Hiring Manager — Technical Taste & Fit** — system design, engineering judgment, ownership, and team & culture fit.
-
 ---
 
 *We are an equal-opportunity employer. We evaluate candidates on demonstrated skills and impact and welcome applicants from all backgrounds.*
