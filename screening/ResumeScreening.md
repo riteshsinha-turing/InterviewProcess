@@ -80,3 +80,21 @@
 
 * AI platform architecture (bonus).
 * Agentic systems / LLM infrastructure (bonus).
+
+---
+
+## SDET — Software Development Engineer in Test (5+ YOE)
+
+*Automation testing track. **Academic qualifications are relaxed for this role** — weight hands-on development and test-automation experience well above degree pedigree.*
+
+### Work Experience
+
+* **5+ years across software development and testing**, with a strong automation focus.
+* Solid coding fundamentals — writes and maintains test code and frameworks (not just record-and-playback scripts).
+* Hands-on with **modern automated testing frameworks across frontend and backend** (e.g. Playwright, Selenium, Cypress, and API/integration testing tooling).
+* Builds and maintains **cloud test pipelines / CI** — integrates automated suites into CI/CD (e.g. **GitHub Actions**), with parallelization and reporting.
+* Resume signals: test coverage and quality improvements, flaky-test reduction, framework/tooling ownership, release-quality and regression-prevention impact.
+
+### AI Forward
+
+* AI-assisted test generation and agentic/automated testing workflows (bonus).
