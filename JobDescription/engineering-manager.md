@@ -1,6 +1,6 @@
 # Engineering Manager
 
-**Location:** Bangalore, India · **In-office** · Full-time
+**Location:** Bangalore, India · **In-office** · Hybrid
 **Experience:** 8–12 years total, including 3+ years in engineering leadership
 
 ## About the Role

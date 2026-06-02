@@ -1,6 +1,6 @@
 # Senior Software Engineer
 
-**Location:** Bangalore, India · **In-office** · Full-time
+**Location:** Bangalore, India · **In-office** · Hybrid
 **Experience:** 6–8 years
 
 ## About the Role
